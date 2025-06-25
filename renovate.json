@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "groupName": "python requirements",
+      "description": "Group Python requirements update into a single PR",
+      "matchFileNames": [
+        "**/requirements-dev.txt",
+        "**/requirements-test.txt"
+      ]
+    }
+  ]
+}
