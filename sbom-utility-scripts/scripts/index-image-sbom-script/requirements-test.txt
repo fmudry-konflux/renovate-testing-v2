@@ -4,15 +4,15 @@
 #
 #    pip-compile requirements-test.in
 #
-iniconfig==2.0.0
+iniconfig==2.3.0
     # via pytest
 packaging==25.0
     # via pytest
-pluggy==1.5.0
+pluggy==1.6.0
     # via pytest
-pytest==8.3.5
+pytest==8.4.2
     # via
     #   -r requirements-test.in
     #   pytest-mock
-pytest-mock==3.14.0
+pytest-mock==3.15.1
     # via -r requirements-test.in
